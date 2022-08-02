@@ -1,12 +1,107 @@
 .header {
-    padding: 20px 0px;
-    background:#ffffff;
+    padding: 25px 0px;
     color: #000000;
- }
-.header-6-left span{margin:5px 5px}
-.header-6-right span{margin:5px 5px; text-align:right;}
-.header-6-right{padding-left: 15rem;}
-.header-6-left {padding-left: 4rem;}
-.header-button{background-color: #583bb6;
-    border-color: #583bb6;
-    color: #fff;border-radius: 50px; font-size: 12px;width:12rem;}
+    border: 1;
+    border-bottom: #ccc;
+    font-family: "Roboto"
+}
+
+.header-6-left {
+    padding-left: 4rem
+}
+
+.header-6-right {
+    text-align: right;
+    padding-right: 4rem
+}
+
+.header-6-left span {
+    margin: 5px 5px
+}
+
+.header-6-right span {
+    margin: 5px 5px;
+}
+
+.header-button {
+    padding: .375rem .75rem;
+    border-radius: 50px;
+    font-size: 13px;
+    max-width: 250px;
+    background-color: #583bb6;
+    border-color: #583bb6
+}
+
+.fa-mobile-phone {
+    font-size: 30px !important;
+         color: #9da3a9;
+}
+
+.fa-tablet {
+    font-size: 30px !important;
+     color: #9da3a9;
+}
+
+.fa-desktop {
+    font-size: 25px !important;
+    color: red;
+}
+/***********************************
+navbar
+***********************************/
+
+.navbar-10 {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 5em;
+    width: 100%;
+    border:2px solid #eee;
+    border-bottom-color: #fff;
+   padding:1rem 2rem
+  }
+  
+  
+  .navbar-10 a {
+    float: left;
+    display: block;
+     color:#333;
+    padding: 14px 22px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.navbar-10 a:hover {
+    position:relative;
+}
+
+.navbar-10 a:hover.navbar-10 a:after {
+  width:50px
+}
+
+  
+.navbar-10 a:after{
+    content: "";
+    position:absolute;
+    top:3rem;
+    border:1px solid #333;
+    width:0px;
+    margin-left:-40px;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    
+}
+
+  .main-10 {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+  }
+
+.pad-left{
+    padding-left: 3rem;
+}
+.pad-right{
+        padding-left: 10rem;
+
+}
