@@ -106,12 +106,51 @@ navbar
 
 }
 .navbar-nav.pad-left{
-    padding-left:35rem;  
+    padding-left:26rem;  
 }
 .navbar-nav.pad-left .nav-item{
     font-size: 18px;
-    padding: 16px 12px
+    padding: 16px 22px
 }
 .navbar-brand{
-    padding-left:4rem
+    padding-left:5rem;
+     font-weight:600;
+    font-size: 34px
+}
+
+.navbar-nav.pad-left .nav-item a{
+    padding-top: 0px;
+    border:0px;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    padding:0px
+}
+.navbar-nav.pad-left .nav-item a:hover{
+    border-bottom: 1px solid;
+}
+
+.img-wrapper {
+  position: relative;
+     text-align: center;
+}
+.img-wrapper img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.img-overlay {
+  z-index: 100;
+  color: white;
+  font-weight: bold;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+    margin-top: 5rem;
+  width:100%
+}
+
+.img-overlay h2{
+    font-size: 70px;
 }
