@@ -3,7 +3,13 @@
     color: #000000;
     border: 1;
     border-bottom: #ccc;
-    font-family: "Roboto"
+    font-family: "Roboto";
+     overflow: hiddn;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 200
 }
 
 .header-6-left {
@@ -50,10 +56,12 @@ navbar
 
 .navbar{
     overflow: hidden;
-  background-color: #333;
-  position: static; /* Set the navbar to fixed position */
   top: 13%; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+    position: fixed;
+      background-color: #fff !important;
+    border-top:1px solid #eee;
+   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 .pad-left{
     padding-left: 3rem;
@@ -112,6 +120,22 @@ navbar
 
 .img-overlay h2{
     font-size: 50px;
+     text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+
+.img-overlay p{
+  text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); 
 }
 
 .img-overlay button{
@@ -156,12 +180,35 @@ width: 100%;
       height:350px
 }
 .mid-section-2{
-    padding:50px;
+    padding-top: 130px;
+    padding-bottom: 50px;
 }
 .mid-section-2 img {
-    height: 300px;
-width: 90%;
-object-fit: cover;
-width: 100%;
-   
+   height: auto;
+   width: 100%;
+   object-fit: contain;
+   width: 100%;
+   border-width: 60px;
+   border-color: #000000;
+}
+
+.mid-section-btn{
+    padding:40px 0;
+
+}
+.mid-section-2 .img-height{
+    height:600px;
+    overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; 
+        
+}
+.mid-section-btn .btn{
+    border:1px solid #333;
+    padding:16px 22px
+}
+
+.mid-section-2 .btn{
+    margin: 10px 0;
+    border:2px solid #333;
+    padding:16px 32px
 }
