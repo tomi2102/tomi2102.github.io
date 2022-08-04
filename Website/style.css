@@ -22,12 +22,10 @@
 .header-6-right span {
     margin: 5px 7px;
 }
-
 .header-button {
-    padding: 10px 24px;
+    padding: 7px 30px;
     border-radius: 50px;
     font-size: 13px;
-    max-width: 250px;
     background-color: #583bb6;
     border-color: #583bb6
 }
@@ -50,54 +48,13 @@
 navbar
 ***********************************/
 
-.navbar-10 {
+.navbar{
     overflow: hidden;
-    background-color: #fff;
-    position: fixed;
-    top: 5em;
-    width: 100%;
-    border:2px solid #eee;
-    border-bottom-color: #fff;
-   padding:1rem 2rem
-  }
-  
-  
-  .navbar-10 a {
-    float: left;
-    display: block;
-     color:#333;
-    padding: 14px 22px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-.navbar-10 a:hover {
-    position:relative;
+  background-color: #333;
+  position: static; /* Set the navbar to fixed position */
+  top: 13%; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
-
-.navbar-10 a:hover.navbar-10 a:after {
-  width:50px
-}
-
-  
-.navbar-10 a:after{
-    content: "";
-    position:absolute;
-    top:3rem;
-    border:1px solid #333;
-    width:0px;
-    margin-left:-40px;
-    border-top:0;
-    border-left:0;
-    border-right:0;
-    
-}
-
-  .main-10 {
-    padding: 16px;
-    margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
-  }
-
 .pad-left{
     padding-left: 3rem;
 }
@@ -133,9 +90,12 @@ navbar
 .img-wrapper {
   position: relative;
      text-align: center;
+     background-image: url('Images/make-up-1.png');
+     background-repeat: no-repeat;
+      background-size: auto;
+      height:500px
 }
 .img-wrapper img {
-  position: absolute;
   left: 0;
   top: 0;
 }
@@ -144,13 +104,34 @@ navbar
   color: white;
   font-weight: bold;
    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-    margin-top: 5rem;
+  top: 40%;
+  left: 0%;
+    margin:  auto;
   width:100%
 }
 
 .img-overlay h2{
     font-size: 70px;
+}
+
+.img-overlay button{
+    background: #fff;
+    border:transparent;
+   padding:15px 40px;
+    border:none
+}
+
+.img-overlay button:focus{
+      background: #fff;
+    border:transparent;
+       outline: none
+    
+}
+
+.overlay-btn{
+    margin-top:50px
+}
+
+.mid-section{
+    padding:50px
 }
