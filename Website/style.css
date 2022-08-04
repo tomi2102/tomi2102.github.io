@@ -212,3 +212,12 @@ width: 100%;
     border:2px solid #333;
     padding:16px 32px
 }
+.img-wrapper-3{
+    position: relative;
+     text-align: center;
+     background-image: url('Images/banner.png');
+     background-repeat: no-repeat;
+      background-size: auto;
+      height:350px;}
+.form-group{padding: 0px 25rem;
+margin-right: 20px;}
