@@ -93,7 +93,7 @@ navbar
      background-image: url('Images/make-up-1.png');
      background-repeat: no-repeat;
       background-size: auto;
-      height:500px
+      height:400px
 }
 .img-wrapper img {
   left: 0;
@@ -111,7 +111,7 @@ navbar
 }
 
 .img-overlay h2{
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .img-overlay button{
