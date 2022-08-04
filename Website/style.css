@@ -147,3 +147,11 @@ width: 90%;
 object-fit: cover;
 width: 100%;
 }
+.img-wrapper-2{
+    position: relative;
+     text-align: center;
+     background-image: url('Images/makeupgirls.png');
+     background-repeat: no-repeat;
+      background-size: auto;
+      height:350px
+}
