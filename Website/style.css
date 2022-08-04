@@ -135,3 +135,15 @@ navbar
 .mid-section{
     padding:50px
 }
+
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.mid-section img {
+ height: 200px;
+width: 90%;
+object-fit: cover;
+width: 100%;
+}
